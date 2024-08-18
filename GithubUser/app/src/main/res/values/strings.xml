@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Github User Search</string>
+    <string name="user_detail">User Detail</string>
+    <string name="searchbar_hint">Username</string>
+    <string name="finglabel">Following</string>
+    <string name="ferslabel">Followers</string>
+    <string name="location">Location</string>
+    <string name="followers">XXX</string>
+    <string name="following">XXX</string>
+    <string name="company">Company</string>
+    <string name="repository">XXX</string>
+    <string name="repolabel">Repositories:</string>
+    <string name="name">Name</string>
+    <string name="username">\@username</string>
+    <string name="not_found">Not Found</string>
+    <string name="bio">Biography</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
