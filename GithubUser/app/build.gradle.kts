@@ -21,7 +21,7 @@ android {
 
     buildTypes {
         debug {
-            // buildConfigField("String", "MY_TOKEN", "DEFINE GITHUB API KEY")
+            // buildConfigField("String", "MY_TOKEN", "")
         }
 
         release {
@@ -30,7 +30,7 @@ android {
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
-            // buildConfigField("String", "MY_TOKEN", "DEFINE GITHUB API KEY")
+            // buildConfigField("String", "MY_TOKEN", "")
         }
     }
     compileOptions {
