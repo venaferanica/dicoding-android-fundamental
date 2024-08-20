@@ -13,7 +13,7 @@
 
 <b>Library used:</b>
 <ul>
-  <li>Retrofit: request API network</li>
+  <li>Retrofit: Request API network</li>
   <li>Room: Local database</li>
   <li>Glide: Load image online</li>
   <li>Preferences Datastore: Save user preference for theme setting</li>
