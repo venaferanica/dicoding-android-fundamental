@@ -1,7 +1,7 @@
 # dicoding-android-fundamental
 <p>Study Case: Github API</p>
 
-<p>For Android Fundamental submission,cohorts are instructed to make a mobile application connected to Github API. In which the application allow users to look up and add user to favorite list.</p>
+<p>For Android Fundamental submission, cohorts are instructed to make a mobile application connected to Github API. In which the application allow users to look up and add user to favorite list.</p>
   
 <b>Features:</b>
 <ul>
