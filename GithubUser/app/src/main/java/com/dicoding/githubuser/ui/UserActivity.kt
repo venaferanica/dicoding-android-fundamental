@@ -67,7 +67,7 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
         }.attach()
 
 
-        username.let { userViewModel.userDetail(it) }
+        username?.let { userViewModel.userDetail(it) }
         userViewModel.userDetail.observe(this) { user ->
             user?.let { safeUser ->
                 Glide.with(this)
@@ -75,10 +75,14 @@ class UserActivity : AppCompatActivity(), View.OnClickListener {
                     .skipMemoryCache(true)
                     .into(binding.imgAvatar)
 
-                binding.tvName.text = safeUser.name
-                binding.tvUsername.text = safeUser.login
-                binding.tvCompany.text = safeUser.company.toString()
-                binding.tvLocation.text = safeUser.location.toString()
+                binding.tvName.text = safeUser.name ?: ""
+                binding.tvUsername.text = safeUser.login ?: ""
+                if (safeUser.company != null){
+                    binding.tvCompany.text = safeUser.company.toString()
+                }
+                if (safeUser.company != null){
+                    binding.tvLocation.text = safeUser.location.toString()
+                }
                 binding.tvRepositoryValue.text = safeUser.publicRepos.toString()
                 binding.tvFollowers.text = safeUser.followers.toString()
                 binding.tvFollowing.text = safeUser.following.toString()
